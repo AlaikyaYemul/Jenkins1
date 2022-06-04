@@ -18,6 +18,7 @@
   <build>
     <plugins>
         <plugin>
+            <finalName>Jenkins</finalName>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
@@ -27,7 +28,4 @@
         </plugin>
     </plugins>
 </build>
-  <build>
-    <finalName>Jenkins</finalName>
-  </build>
 </project>
